@@ -17,7 +17,7 @@ public class SpellChecker {
 		// Your code goes here
 	}
 	public static Boolean check(char a,char b){
-		if ( a!=b && a!=b+32 && a!=b-34){
+		if ( a!=b){
 			return false;
 		}
 		return true;
